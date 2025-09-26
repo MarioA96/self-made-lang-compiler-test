@@ -146,3 +146,41 @@ Rules:
   universal character names to include non-ASCII characters in identifiers, but
   we won’t implement them. Many C implementations let you use Unicode characters
   directly, but you don’t need to support that either.
+
+---
+
+## Flex & Bison
+
+### Basics
+
+En la carpeta flex_bison
+
+```bash
+$ flex fb1-1.l
+$ gcc lex.yy.c -lfl
+$ ./a.out
+$ <Escribe tu palabra u oracion y luego presionas ctrl + D >
+```
+
+Generation via Makefile and its execution
+
+```bash
+<Inside the directory of the working project>
+$ make
+```
+
+For Chapter 2 fb2-1.fl, fb2-2.fl
+
+```bash
+$ flex fb2-1.l
+$ gcc lex.yy.c -lfl
+$ ./a.out
+```
+
+For Chapter 2 fb2-3.fl
+
+```bash
+$ flex fb2-1.l
+$ gcc lex.yy.c -lfl
+$ ./a.out test.c
+```
