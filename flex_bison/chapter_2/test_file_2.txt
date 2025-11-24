@@ -1,0 +1,5 @@
+Este es un texto
+distinto
+que esta siendo escrito
+en otro
+archivo

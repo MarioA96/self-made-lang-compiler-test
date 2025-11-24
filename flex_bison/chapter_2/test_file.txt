@@ -1,0 +1,7 @@
+Esta es una oracion
+que hora es redactada
+en un archivo a parte para
+que pueda
+ser leido
+por el
+programa
