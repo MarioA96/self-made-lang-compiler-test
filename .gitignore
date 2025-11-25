@@ -1,0 +1,7 @@
+# Ignore all files with no extension in the current directory
+*
+!*.*
+
+# To ignore files with no extension in subdirectories as well, use:
+**/*
+!**/*.*
